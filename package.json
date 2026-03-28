@@ -1,0 +1,21 @@
+{
+  "name": "smooth-erc2727-poc",
+  "version": "0.1.0",
+  "description": "ERC-2727 compliance oracle proof of concept for emerging market assets",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "hardhat run scripts/deploy.js --network base-sepolia",
+    "test": "hardhat test",
+    "compile": "hardhat compile"
+  },
+  "dependencies": {
+    "ethers": "^6.7.1",
+    "dotenv": "^16.0.3",
+    "@openzeppelin/contracts": "^5.0.0"
+  },
+  "devDependencies": {
+    "hardhat": "^2.19.0",
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@nomicfoundation/hardhat-ethers": "^3.0.0"
+  }
+}
